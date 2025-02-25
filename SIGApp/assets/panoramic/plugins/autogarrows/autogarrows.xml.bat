@@ -1,0 +1,1 @@
+"F:/RealGIS_Desarrollo/realgis_1.1.2_Cali/src/assets/panoramic/plugins/autogarrows/autogarrows" "F:/RealGIS_Desarrollo/realgis_1.1.2_Cali/src/assets/panoramic/xml/1607954084.xml"

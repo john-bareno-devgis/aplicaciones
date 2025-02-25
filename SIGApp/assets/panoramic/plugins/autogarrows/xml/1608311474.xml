@@ -1,0 +1,319 @@
+<krpano>
+<events name="autogarrowsevents" keep="true" onxmlcomplete="autogarrows_init()" />
+<action name="autogarrows_init">
+
+<!-- scene_1608311474_0000 to scene_1608311474_0001 | 1608311474_0000 to 1608311474_0001 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0000',addhotspot(autogarrowshotspot_scene_1608311474_0000_1);hotspot[autogarrowshotspot_scene_1608311474_0000_1].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0000_1].ath, -150.56);set(hotspot[autogarrowshotspot_scene_1608311474_0000_1].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0000_1].linkedscene, scene_1608311474_0001););
+
+<!-- scene_1608311474_0001 to scene_1608311474_0000 | 1608311474_0001 to 1608311474_0000 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0001',addhotspot(autogarrowshotspot_scene_1608311474_0001_2);hotspot[autogarrowshotspot_scene_1608311474_0001_2].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0001_2].ath, 29.44);set(hotspot[autogarrowshotspot_scene_1608311474_0001_2].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0001_2].linkedscene, scene_1608311474_0000););
+
+<!-- scene_1608311474_0001 to scene_1608311474_0002 | 1608311474_0001 to 1608311474_0002 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0001',addhotspot(autogarrowshotspot_scene_1608311474_0001_3);hotspot[autogarrowshotspot_scene_1608311474_0001_3].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0001_3].ath, -140.65);set(hotspot[autogarrowshotspot_scene_1608311474_0001_3].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0001_3].linkedscene, scene_1608311474_0002););
+
+<!-- scene_1608311474_0002 to scene_1608311474_0001 | 1608311474_0002 to 1608311474_0001 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0002',addhotspot(autogarrowshotspot_scene_1608311474_0002_4);hotspot[autogarrowshotspot_scene_1608311474_0002_4].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0002_4].ath, 39.35);set(hotspot[autogarrowshotspot_scene_1608311474_0002_4].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0002_4].linkedscene, scene_1608311474_0001););
+
+<!-- scene_1608311474_0002 to scene_1608311474_0003 | 1608311474_0002 to 1608311474_0003 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0002',addhotspot(autogarrowshotspot_scene_1608311474_0002_5);hotspot[autogarrowshotspot_scene_1608311474_0002_5].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0002_5].ath, -146.31);set(hotspot[autogarrowshotspot_scene_1608311474_0002_5].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0002_5].linkedscene, scene_1608311474_0003););
+
+<!-- scene_1608311474_0003 to scene_1608311474_0002 | 1608311474_0003 to 1608311474_0002 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0003',addhotspot(autogarrowshotspot_scene_1608311474_0003_6);hotspot[autogarrowshotspot_scene_1608311474_0003_6].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0003_6].ath, 33.69);set(hotspot[autogarrowshotspot_scene_1608311474_0003_6].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0003_6].linkedscene, scene_1608311474_0002););
+
+<!-- scene_1608311474_0003 to scene_1608311474_0004 | 1608311474_0003 to 1608311474_0004 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0003',addhotspot(autogarrowshotspot_scene_1608311474_0003_7);hotspot[autogarrowshotspot_scene_1608311474_0003_7].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0003_7].ath, -137.52);set(hotspot[autogarrowshotspot_scene_1608311474_0003_7].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0003_7].linkedscene, scene_1608311474_0004););
+
+<!-- scene_1608311474_0004 to scene_1608311474_0003 | 1608311474_0004 to 1608311474_0003 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0004',addhotspot(autogarrowshotspot_scene_1608311474_0004_8);hotspot[autogarrowshotspot_scene_1608311474_0004_8].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0004_8].ath, 42.48);set(hotspot[autogarrowshotspot_scene_1608311474_0004_8].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0004_8].linkedscene, scene_1608311474_0003););
+
+<!-- scene_1608311474_0004 to scene_1608311474_0005 | 1608311474_0004 to 1608311474_0005 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0004',addhotspot(autogarrowshotspot_scene_1608311474_0004_9);hotspot[autogarrowshotspot_scene_1608311474_0004_9].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0004_9].ath, -146.25);set(hotspot[autogarrowshotspot_scene_1608311474_0004_9].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0004_9].linkedscene, scene_1608311474_0005););
+
+<!-- scene_1608311474_0005 to scene_1608311474_0004 | 1608311474_0005 to 1608311474_0004 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0005',addhotspot(autogarrowshotspot_scene_1608311474_0005_10);hotspot[autogarrowshotspot_scene_1608311474_0005_10].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0005_10].ath, 33.75);set(hotspot[autogarrowshotspot_scene_1608311474_0005_10].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0005_10].linkedscene, scene_1608311474_0004););
+
+<!-- scene_1608311474_0006 to scene_1608311474_0007 | 1608311474_0006 to 1608311474_0007 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0006',addhotspot(autogarrowshotspot_scene_1608311474_0006_11);hotspot[autogarrowshotspot_scene_1608311474_0006_11].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0006_11].ath, -148.20);set(hotspot[autogarrowshotspot_scene_1608311474_0006_11].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0006_11].linkedscene, scene_1608311474_0007););
+
+<!-- scene_1608311474_0007 to scene_1608311474_0006 | 1608311474_0007 to 1608311474_0006 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0007',addhotspot(autogarrowshotspot_scene_1608311474_0007_12);hotspot[autogarrowshotspot_scene_1608311474_0007_12].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0007_12].ath, 31.80);set(hotspot[autogarrowshotspot_scene_1608311474_0007_12].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0007_12].linkedscene, scene_1608311474_0006););
+
+<!-- scene_1608311474_0007 to scene_1608311474_0008 | 1608311474_0007 to 1608311474_0008 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0007',addhotspot(autogarrowshotspot_scene_1608311474_0007_13);hotspot[autogarrowshotspot_scene_1608311474_0007_13].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0007_13].ath, -148.72);set(hotspot[autogarrowshotspot_scene_1608311474_0007_13].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0007_13].linkedscene, scene_1608311474_0008););
+
+<!-- scene_1608311474_0008 to scene_1608311474_0007 | 1608311474_0008 to 1608311474_0007 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0008',addhotspot(autogarrowshotspot_scene_1608311474_0008_14);hotspot[autogarrowshotspot_scene_1608311474_0008_14].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0008_14].ath, 31.28);set(hotspot[autogarrowshotspot_scene_1608311474_0008_14].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0008_14].linkedscene, scene_1608311474_0007););
+
+<!-- scene_1608311474_0008 to scene_1608311474_0009 | 1608311474_0008 to 1608311474_0009 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0008',addhotspot(autogarrowshotspot_scene_1608311474_0008_15);hotspot[autogarrowshotspot_scene_1608311474_0008_15].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0008_15].ath, -148.76);set(hotspot[autogarrowshotspot_scene_1608311474_0008_15].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0008_15].linkedscene, scene_1608311474_0009););
+
+<!-- scene_1608311474_0009 to scene_1608311474_0008 | 1608311474_0009 to 1608311474_0008 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0009',addhotspot(autogarrowshotspot_scene_1608311474_0009_16);hotspot[autogarrowshotspot_scene_1608311474_0009_16].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0009_16].ath, 31.24);set(hotspot[autogarrowshotspot_scene_1608311474_0009_16].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0009_16].linkedscene, scene_1608311474_0008););
+
+<!-- scene_1608311474_0009 to scene_1608311474_0010 | 1608311474_0009 to 1608311474_0010 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0009',addhotspot(autogarrowshotspot_scene_1608311474_0009_17);hotspot[autogarrowshotspot_scene_1608311474_0009_17].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0009_17].ath, -148.17);set(hotspot[autogarrowshotspot_scene_1608311474_0009_17].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0009_17].linkedscene, scene_1608311474_0010););
+
+<!-- scene_1608311474_0010 to scene_1608311474_0009 | 1608311474_0010 to 1608311474_0009 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0010',addhotspot(autogarrowshotspot_scene_1608311474_0010_18);hotspot[autogarrowshotspot_scene_1608311474_0010_18].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0010_18].ath, 31.83);set(hotspot[autogarrowshotspot_scene_1608311474_0010_18].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0010_18].linkedscene, scene_1608311474_0009););
+
+<!-- scene_1608311474_0011 to scene_1608311474_0012 | 1608311474_0011 to 1608311474_0012 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0011',addhotspot(autogarrowshotspot_scene_1608311474_0011_19);hotspot[autogarrowshotspot_scene_1608311474_0011_19].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0011_19].ath, -147.33);set(hotspot[autogarrowshotspot_scene_1608311474_0011_19].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0011_19].linkedscene, scene_1608311474_0012););
+
+<!-- scene_1608311474_0012 to scene_1608311474_0011 | 1608311474_0012 to 1608311474_0011 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0012',addhotspot(autogarrowshotspot_scene_1608311474_0012_20);hotspot[autogarrowshotspot_scene_1608311474_0012_20].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0012_20].ath, 32.67);set(hotspot[autogarrowshotspot_scene_1608311474_0012_20].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0012_20].linkedscene, scene_1608311474_0011););
+
+<!-- scene_1608311474_0012 to scene_1608311474_0013 | 1608311474_0012 to 1608311474_0013 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0012',addhotspot(autogarrowshotspot_scene_1608311474_0012_21);hotspot[autogarrowshotspot_scene_1608311474_0012_21].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0012_21].ath, -147.10);set(hotspot[autogarrowshotspot_scene_1608311474_0012_21].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0012_21].linkedscene, scene_1608311474_0013););
+
+<!-- scene_1608311474_0013 to scene_1608311474_0012 | 1608311474_0013 to 1608311474_0012 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0013',addhotspot(autogarrowshotspot_scene_1608311474_0013_22);hotspot[autogarrowshotspot_scene_1608311474_0013_22].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0013_22].ath, 32.90);set(hotspot[autogarrowshotspot_scene_1608311474_0013_22].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0013_22].linkedscene, scene_1608311474_0012););
+
+<!-- scene_1608311474_0013 to scene_1608311474_0014 | 1608311474_0013 to 1608311474_0014 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0013',addhotspot(autogarrowshotspot_scene_1608311474_0013_23);hotspot[autogarrowshotspot_scene_1608311474_0013_23].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0013_23].ath, -147.87);set(hotspot[autogarrowshotspot_scene_1608311474_0013_23].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0013_23].linkedscene, scene_1608311474_0014););
+
+<!-- scene_1608311474_0014 to scene_1608311474_0013 | 1608311474_0014 to 1608311474_0013 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0014',addhotspot(autogarrowshotspot_scene_1608311474_0014_24);hotspot[autogarrowshotspot_scene_1608311474_0014_24].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0014_24].ath, 32.13);set(hotspot[autogarrowshotspot_scene_1608311474_0014_24].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0014_24].linkedscene, scene_1608311474_0013););
+
+<!-- scene_1608311474_0014 to scene_1608311474_0015 | 1608311474_0014 to 1608311474_0015 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0014',addhotspot(autogarrowshotspot_scene_1608311474_0014_25);hotspot[autogarrowshotspot_scene_1608311474_0014_25].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0014_25].ath, -146.93);set(hotspot[autogarrowshotspot_scene_1608311474_0014_25].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0014_25].linkedscene, scene_1608311474_0015););
+
+<!-- scene_1608311474_0015 to scene_1608311474_0014 | 1608311474_0015 to 1608311474_0014 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0015',addhotspot(autogarrowshotspot_scene_1608311474_0015_26);hotspot[autogarrowshotspot_scene_1608311474_0015_26].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0015_26].ath, 33.07);set(hotspot[autogarrowshotspot_scene_1608311474_0015_26].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0015_26].linkedscene, scene_1608311474_0014););
+
+<!-- scene_1608311474_0015 to scene_1608311474_0016 | 1608311474_0015 to 1608311474_0016 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0015',addhotspot(autogarrowshotspot_scene_1608311474_0015_27);hotspot[autogarrowshotspot_scene_1608311474_0015_27].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0015_27].ath, -148.04);set(hotspot[autogarrowshotspot_scene_1608311474_0015_27].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0015_27].linkedscene, scene_1608311474_0016););
+
+<!-- scene_1608311474_0016 to scene_1608311474_0015 | 1608311474_0016 to 1608311474_0015 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0016',addhotspot(autogarrowshotspot_scene_1608311474_0016_28);hotspot[autogarrowshotspot_scene_1608311474_0016_28].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0016_28].ath, 31.96);set(hotspot[autogarrowshotspot_scene_1608311474_0016_28].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0016_28].linkedscene, scene_1608311474_0015););
+
+<!-- scene_1608311474_0016 to scene_1608311474_0017 | 1608311474_0016 to 1608311474_0017 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0016',addhotspot(autogarrowshotspot_scene_1608311474_0016_29);hotspot[autogarrowshotspot_scene_1608311474_0016_29].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0016_29].ath, -148.16);set(hotspot[autogarrowshotspot_scene_1608311474_0016_29].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0016_29].linkedscene, scene_1608311474_0017););
+
+<!-- scene_1608311474_0017 to scene_1608311474_0016 | 1608311474_0017 to 1608311474_0016 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0017',addhotspot(autogarrowshotspot_scene_1608311474_0017_30);hotspot[autogarrowshotspot_scene_1608311474_0017_30].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0017_30].ath, 31.84);set(hotspot[autogarrowshotspot_scene_1608311474_0017_30].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0017_30].linkedscene, scene_1608311474_0016););
+
+<!-- scene_1608311474_0018 to scene_1608311474_0019 | 1608311474_0018 to 1608311474_0019 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0018',addhotspot(autogarrowshotspot_scene_1608311474_0018_31);hotspot[autogarrowshotspot_scene_1608311474_0018_31].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0018_31].ath, -147.24);set(hotspot[autogarrowshotspot_scene_1608311474_0018_31].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0018_31].linkedscene, scene_1608311474_0019););
+
+<!-- scene_1608311474_0019 to scene_1608311474_0018 | 1608311474_0019 to 1608311474_0018 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0019',addhotspot(autogarrowshotspot_scene_1608311474_0019_32);hotspot[autogarrowshotspot_scene_1608311474_0019_32].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0019_32].ath, 32.76);set(hotspot[autogarrowshotspot_scene_1608311474_0019_32].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0019_32].linkedscene, scene_1608311474_0018););
+
+<!-- scene_1608311474_0019 to scene_1608311474_0020 | 1608311474_0019 to 1608311474_0020 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0019',addhotspot(autogarrowshotspot_scene_1608311474_0019_33);hotspot[autogarrowshotspot_scene_1608311474_0019_33].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0019_33].ath, -146.63);set(hotspot[autogarrowshotspot_scene_1608311474_0019_33].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0019_33].linkedscene, scene_1608311474_0020););
+
+<!-- scene_1608311474_0020 to scene_1608311474_0019 | 1608311474_0020 to 1608311474_0019 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0020',addhotspot(autogarrowshotspot_scene_1608311474_0020_34);hotspot[autogarrowshotspot_scene_1608311474_0020_34].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0020_34].ath, 33.37);set(hotspot[autogarrowshotspot_scene_1608311474_0020_34].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0020_34].linkedscene, scene_1608311474_0019););
+
+<!-- scene_1608311474_0021 to scene_1608311474_0022 | 1608311474_0021 to 1608311474_0022 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0021',addhotspot(autogarrowshotspot_scene_1608311474_0021_35);hotspot[autogarrowshotspot_scene_1608311474_0021_35].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0021_35].ath, -149.28);set(hotspot[autogarrowshotspot_scene_1608311474_0021_35].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0021_35].linkedscene, scene_1608311474_0022););
+
+<!-- scene_1608311474_0022 to scene_1608311474_0021 | 1608311474_0022 to 1608311474_0021 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0022',addhotspot(autogarrowshotspot_scene_1608311474_0022_36);hotspot[autogarrowshotspot_scene_1608311474_0022_36].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0022_36].ath, 30.72);set(hotspot[autogarrowshotspot_scene_1608311474_0022_36].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0022_36].linkedscene, scene_1608311474_0021););
+
+<!-- scene_1608311474_0022 to scene_1608311474_0023 | 1608311474_0022 to 1608311474_0023 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0022',addhotspot(autogarrowshotspot_scene_1608311474_0022_37);hotspot[autogarrowshotspot_scene_1608311474_0022_37].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0022_37].ath, -147.87);set(hotspot[autogarrowshotspot_scene_1608311474_0022_37].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0022_37].linkedscene, scene_1608311474_0023););
+
+<!-- scene_1608311474_0023 to scene_1608311474_0022 | 1608311474_0023 to 1608311474_0022 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0023',addhotspot(autogarrowshotspot_scene_1608311474_0023_38);hotspot[autogarrowshotspot_scene_1608311474_0023_38].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0023_38].ath, 32.13);set(hotspot[autogarrowshotspot_scene_1608311474_0023_38].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0023_38].linkedscene, scene_1608311474_0022););
+
+<!-- scene_1608311474_0023 to scene_1608311474_0024 | 1608311474_0023 to 1608311474_0024 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0023',addhotspot(autogarrowshotspot_scene_1608311474_0023_39);hotspot[autogarrowshotspot_scene_1608311474_0023_39].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0023_39].ath, -146.28);set(hotspot[autogarrowshotspot_scene_1608311474_0023_39].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0023_39].linkedscene, scene_1608311474_0024););
+
+<!-- scene_1608311474_0024 to scene_1608311474_0023 | 1608311474_0024 to 1608311474_0023 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0024',addhotspot(autogarrowshotspot_scene_1608311474_0024_40);hotspot[autogarrowshotspot_scene_1608311474_0024_40].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0024_40].ath, 33.72);set(hotspot[autogarrowshotspot_scene_1608311474_0024_40].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0024_40].linkedscene, scene_1608311474_0023););
+
+<!-- scene_1608311474_0024 to scene_1608311474_0025 | 1608311474_0024 to 1608311474_0025 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0024',addhotspot(autogarrowshotspot_scene_1608311474_0024_41);hotspot[autogarrowshotspot_scene_1608311474_0024_41].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0024_41].ath, -148.17);set(hotspot[autogarrowshotspot_scene_1608311474_0024_41].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0024_41].linkedscene, scene_1608311474_0025););
+
+<!-- scene_1608311474_0025 to scene_1608311474_0024 | 1608311474_0025 to 1608311474_0024 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0025',addhotspot(autogarrowshotspot_scene_1608311474_0025_42);hotspot[autogarrowshotspot_scene_1608311474_0025_42].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0025_42].ath, 31.83);set(hotspot[autogarrowshotspot_scene_1608311474_0025_42].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0025_42].linkedscene, scene_1608311474_0024););
+
+<!-- scene_1608311474_0026 to scene_1608311474_0027 | 1608311474_0026 to 1608311474_0027 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0026',addhotspot(autogarrowshotspot_scene_1608311474_0026_43);hotspot[autogarrowshotspot_scene_1608311474_0026_43].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0026_43].ath, -148.32);set(hotspot[autogarrowshotspot_scene_1608311474_0026_43].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0026_43].linkedscene, scene_1608311474_0027););
+
+<!-- scene_1608311474_0027 to scene_1608311474_0026 | 1608311474_0027 to 1608311474_0026 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0027',addhotspot(autogarrowshotspot_scene_1608311474_0027_44);hotspot[autogarrowshotspot_scene_1608311474_0027_44].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0027_44].ath, 31.68);set(hotspot[autogarrowshotspot_scene_1608311474_0027_44].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0027_44].linkedscene, scene_1608311474_0026););
+
+<!-- scene_1608311474_0027 to scene_1608311474_0028 | 1608311474_0027 to 1608311474_0028 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0027',addhotspot(autogarrowshotspot_scene_1608311474_0027_45);hotspot[autogarrowshotspot_scene_1608311474_0027_45].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0027_45].ath, -148.79);set(hotspot[autogarrowshotspot_scene_1608311474_0027_45].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0027_45].linkedscene, scene_1608311474_0028););
+
+<!-- scene_1608311474_0028 to scene_1608311474_0027 | 1608311474_0028 to 1608311474_0027 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0028',addhotspot(autogarrowshotspot_scene_1608311474_0028_46);hotspot[autogarrowshotspot_scene_1608311474_0028_46].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0028_46].ath, 31.21);set(hotspot[autogarrowshotspot_scene_1608311474_0028_46].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0028_46].linkedscene, scene_1608311474_0027););
+
+<!-- scene_1608311474_0028 to scene_1608311474_0029 | 1608311474_0028 to 1608311474_0029 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0028',addhotspot(autogarrowshotspot_scene_1608311474_0028_47);hotspot[autogarrowshotspot_scene_1608311474_0028_47].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0028_47].ath, -149.10);set(hotspot[autogarrowshotspot_scene_1608311474_0028_47].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0028_47].linkedscene, scene_1608311474_0029););
+
+<!-- scene_1608311474_0029 to scene_1608311474_0028 | 1608311474_0029 to 1608311474_0028 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0029',addhotspot(autogarrowshotspot_scene_1608311474_0029_48);hotspot[autogarrowshotspot_scene_1608311474_0029_48].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0029_48].ath, 30.90);set(hotspot[autogarrowshotspot_scene_1608311474_0029_48].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0029_48].linkedscene, scene_1608311474_0028););
+
+<!-- scene_1608311474_0029 to scene_1608311474_0030 | 1608311474_0029 to 1608311474_0030 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0029',addhotspot(autogarrowshotspot_scene_1608311474_0029_49);hotspot[autogarrowshotspot_scene_1608311474_0029_49].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0029_49].ath, -148.28);set(hotspot[autogarrowshotspot_scene_1608311474_0029_49].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0029_49].linkedscene, scene_1608311474_0030););
+
+<!-- scene_1608311474_0030 to scene_1608311474_0029 | 1608311474_0030 to 1608311474_0029 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0030',addhotspot(autogarrowshotspot_scene_1608311474_0030_50);hotspot[autogarrowshotspot_scene_1608311474_0030_50].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0030_50].ath, 31.72);set(hotspot[autogarrowshotspot_scene_1608311474_0030_50].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0030_50].linkedscene, scene_1608311474_0029););
+
+<!-- scene_1608311474_0030 to scene_1608311474_0031 | 1608311474_0030 to 1608311474_0031 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0030',addhotspot(autogarrowshotspot_scene_1608311474_0030_51);hotspot[autogarrowshotspot_scene_1608311474_0030_51].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0030_51].ath, -148.25);set(hotspot[autogarrowshotspot_scene_1608311474_0030_51].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0030_51].linkedscene, scene_1608311474_0031););
+
+<!-- scene_1608311474_0031 to scene_1608311474_0030 | 1608311474_0031 to 1608311474_0030 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0031',addhotspot(autogarrowshotspot_scene_1608311474_0031_52);hotspot[autogarrowshotspot_scene_1608311474_0031_52].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0031_52].ath, 31.75);set(hotspot[autogarrowshotspot_scene_1608311474_0031_52].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0031_52].linkedscene, scene_1608311474_0030););
+
+<!-- scene_1608311474_0032 to scene_1608311474_0033 | 1608311474_0032 to 1608311474_0033 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0032',addhotspot(autogarrowshotspot_scene_1608311474_0032_53);hotspot[autogarrowshotspot_scene_1608311474_0032_53].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0032_53].ath, -148.78);set(hotspot[autogarrowshotspot_scene_1608311474_0032_53].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0032_53].linkedscene, scene_1608311474_0033););
+
+<!-- scene_1608311474_0033 to scene_1608311474_0032 | 1608311474_0033 to 1608311474_0032 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0033',addhotspot(autogarrowshotspot_scene_1608311474_0033_54);hotspot[autogarrowshotspot_scene_1608311474_0033_54].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0033_54].ath, 31.22);set(hotspot[autogarrowshotspot_scene_1608311474_0033_54].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0033_54].linkedscene, scene_1608311474_0032););
+
+<!-- scene_1608311474_0033 to scene_1608311474_0034 | 1608311474_0033 to 1608311474_0034 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0033',addhotspot(autogarrowshotspot_scene_1608311474_0033_55);hotspot[autogarrowshotspot_scene_1608311474_0033_55].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0033_55].ath, -148.10);set(hotspot[autogarrowshotspot_scene_1608311474_0033_55].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0033_55].linkedscene, scene_1608311474_0034););
+
+<!-- scene_1608311474_0034 to scene_1608311474_0033 | 1608311474_0034 to 1608311474_0033 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0034',addhotspot(autogarrowshotspot_scene_1608311474_0034_56);hotspot[autogarrowshotspot_scene_1608311474_0034_56].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0034_56].ath, 31.90);set(hotspot[autogarrowshotspot_scene_1608311474_0034_56].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0034_56].linkedscene, scene_1608311474_0033););
+
+<!-- scene_1608311474_0034 to scene_1608311474_0035 | 1608311474_0034 to 1608311474_0035 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0034',addhotspot(autogarrowshotspot_scene_1608311474_0034_57);hotspot[autogarrowshotspot_scene_1608311474_0034_57].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0034_57].ath, -147.54);set(hotspot[autogarrowshotspot_scene_1608311474_0034_57].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0034_57].linkedscene, scene_1608311474_0035););
+
+<!-- scene_1608311474_0035 to scene_1608311474_0034 | 1608311474_0035 to 1608311474_0034 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0035',addhotspot(autogarrowshotspot_scene_1608311474_0035_58);hotspot[autogarrowshotspot_scene_1608311474_0035_58].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0035_58].ath, 32.46);set(hotspot[autogarrowshotspot_scene_1608311474_0035_58].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0035_58].linkedscene, scene_1608311474_0034););
+
+<!-- scene_1608311474_0035 to scene_1608311474_0036 | 1608311474_0035 to 1608311474_0036 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0035',addhotspot(autogarrowshotspot_scene_1608311474_0035_59);hotspot[autogarrowshotspot_scene_1608311474_0035_59].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0035_59].ath, -148.51);set(hotspot[autogarrowshotspot_scene_1608311474_0035_59].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0035_59].linkedscene, scene_1608311474_0036););
+
+<!-- scene_1608311474_0036 to scene_1608311474_0035 | 1608311474_0036 to 1608311474_0035 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0036',addhotspot(autogarrowshotspot_scene_1608311474_0036_60);hotspot[autogarrowshotspot_scene_1608311474_0036_60].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0036_60].ath, 31.49);set(hotspot[autogarrowshotspot_scene_1608311474_0036_60].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0036_60].linkedscene, scene_1608311474_0035););
+
+<!-- scene_1608311474_0036 to scene_1608311474_0037 | 1608311474_0036 to 1608311474_0037 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0036',addhotspot(autogarrowshotspot_scene_1608311474_0036_61);hotspot[autogarrowshotspot_scene_1608311474_0036_61].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0036_61].ath, -147.61);set(hotspot[autogarrowshotspot_scene_1608311474_0036_61].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0036_61].linkedscene, scene_1608311474_0037););
+
+<!-- scene_1608311474_0037 to scene_1608311474_0036 | 1608311474_0037 to 1608311474_0036 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0037',addhotspot(autogarrowshotspot_scene_1608311474_0037_62);hotspot[autogarrowshotspot_scene_1608311474_0037_62].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0037_62].ath, 32.39);set(hotspot[autogarrowshotspot_scene_1608311474_0037_62].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0037_62].linkedscene, scene_1608311474_0036););
+
+<!-- scene_1608311474_0038 to scene_1608311474_0039 | 1608311474_0038 to 1608311474_0039 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0038',addhotspot(autogarrowshotspot_scene_1608311474_0038_63);hotspot[autogarrowshotspot_scene_1608311474_0038_63].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0038_63].ath, -147.83);set(hotspot[autogarrowshotspot_scene_1608311474_0038_63].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0038_63].linkedscene, scene_1608311474_0039););
+
+<!-- scene_1608311474_0039 to scene_1608311474_0038 | 1608311474_0039 to 1608311474_0038 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0039',addhotspot(autogarrowshotspot_scene_1608311474_0039_64);hotspot[autogarrowshotspot_scene_1608311474_0039_64].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0039_64].ath, 32.17);set(hotspot[autogarrowshotspot_scene_1608311474_0039_64].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0039_64].linkedscene, scene_1608311474_0038););
+
+<!-- scene_1608311474_0039 to scene_1608311474_0040 | 1608311474_0039 to 1608311474_0040 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0039',addhotspot(autogarrowshotspot_scene_1608311474_0039_65);hotspot[autogarrowshotspot_scene_1608311474_0039_65].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0039_65].ath, -148.30);set(hotspot[autogarrowshotspot_scene_1608311474_0039_65].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0039_65].linkedscene, scene_1608311474_0040););
+
+<!-- scene_1608311474_0040 to scene_1608311474_0039 | 1608311474_0040 to 1608311474_0039 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0040',addhotspot(autogarrowshotspot_scene_1608311474_0040_66);hotspot[autogarrowshotspot_scene_1608311474_0040_66].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0040_66].ath, 31.70);set(hotspot[autogarrowshotspot_scene_1608311474_0040_66].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0040_66].linkedscene, scene_1608311474_0039););
+
+<!-- scene_1608311474_0040 to scene_1608311474_0041 | 1608311474_0040 to 1608311474_0041 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0040',addhotspot(autogarrowshotspot_scene_1608311474_0040_67);hotspot[autogarrowshotspot_scene_1608311474_0040_67].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0040_67].ath, -148.33);set(hotspot[autogarrowshotspot_scene_1608311474_0040_67].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0040_67].linkedscene, scene_1608311474_0041););
+
+<!-- scene_1608311474_0041 to scene_1608311474_0040 | 1608311474_0041 to 1608311474_0040 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0041',addhotspot(autogarrowshotspot_scene_1608311474_0041_68);hotspot[autogarrowshotspot_scene_1608311474_0041_68].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0041_68].ath, 31.67);set(hotspot[autogarrowshotspot_scene_1608311474_0041_68].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0041_68].linkedscene, scene_1608311474_0040););
+
+<!-- scene_1608311474_0041 to scene_1608311474_0042 | 1608311474_0041 to 1608311474_0042 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0041',addhotspot(autogarrowshotspot_scene_1608311474_0041_69);hotspot[autogarrowshotspot_scene_1608311474_0041_69].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0041_69].ath, -148.44);set(hotspot[autogarrowshotspot_scene_1608311474_0041_69].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0041_69].linkedscene, scene_1608311474_0042););
+
+<!-- scene_1608311474_0042 to scene_1608311474_0041 | 1608311474_0042 to 1608311474_0041 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0042',addhotspot(autogarrowshotspot_scene_1608311474_0042_70);hotspot[autogarrowshotspot_scene_1608311474_0042_70].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0042_70].ath, 31.56);set(hotspot[autogarrowshotspot_scene_1608311474_0042_70].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0042_70].linkedscene, scene_1608311474_0041););
+
+<!-- scene_1608311474_0043 to scene_1608311474_0044 | 1608311474_0043 to 1608311474_0044 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0043',addhotspot(autogarrowshotspot_scene_1608311474_0043_71);hotspot[autogarrowshotspot_scene_1608311474_0043_71].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0043_71].ath, -147.21);set(hotspot[autogarrowshotspot_scene_1608311474_0043_71].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0043_71].linkedscene, scene_1608311474_0044););
+
+<!-- scene_1608311474_0044 to scene_1608311474_0043 | 1608311474_0044 to 1608311474_0043 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0044',addhotspot(autogarrowshotspot_scene_1608311474_0044_72);hotspot[autogarrowshotspot_scene_1608311474_0044_72].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0044_72].ath, 32.79);set(hotspot[autogarrowshotspot_scene_1608311474_0044_72].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0044_72].linkedscene, scene_1608311474_0043););
+
+<!-- scene_1608311474_0044 to scene_1608311474_0045 | 1608311474_0044 to 1608311474_0045 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0044',addhotspot(autogarrowshotspot_scene_1608311474_0044_73);hotspot[autogarrowshotspot_scene_1608311474_0044_73].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0044_73].ath, -148.16);set(hotspot[autogarrowshotspot_scene_1608311474_0044_73].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0044_73].linkedscene, scene_1608311474_0045););
+
+<!-- scene_1608311474_0045 to scene_1608311474_0044 | 1608311474_0045 to 1608311474_0044 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0045',addhotspot(autogarrowshotspot_scene_1608311474_0045_74);hotspot[autogarrowshotspot_scene_1608311474_0045_74].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0045_74].ath, 31.84);set(hotspot[autogarrowshotspot_scene_1608311474_0045_74].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0045_74].linkedscene, scene_1608311474_0044););
+
+<!-- scene_1608311474_0046 to scene_1608311474_0047 | 1608311474_0046 to 1608311474_0047 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0046',addhotspot(autogarrowshotspot_scene_1608311474_0046_75);hotspot[autogarrowshotspot_scene_1608311474_0046_75].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0046_75].ath, -147.77);set(hotspot[autogarrowshotspot_scene_1608311474_0046_75].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0046_75].linkedscene, scene_1608311474_0047););
+
+<!-- scene_1608311474_0047 to scene_1608311474_0046 | 1608311474_0047 to 1608311474_0046 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0047',addhotspot(autogarrowshotspot_scene_1608311474_0047_76);hotspot[autogarrowshotspot_scene_1608311474_0047_76].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0047_76].ath, 32.23);set(hotspot[autogarrowshotspot_scene_1608311474_0047_76].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0047_76].linkedscene, scene_1608311474_0046););
+
+<!-- scene_1608311474_0047 to scene_1608311474_0048 | 1608311474_0047 to 1608311474_0048 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0047',addhotspot(autogarrowshotspot_scene_1608311474_0047_77);hotspot[autogarrowshotspot_scene_1608311474_0047_77].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0047_77].ath, -148.54);set(hotspot[autogarrowshotspot_scene_1608311474_0047_77].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0047_77].linkedscene, scene_1608311474_0048););
+
+<!-- scene_1608311474_0048 to scene_1608311474_0047 | 1608311474_0048 to 1608311474_0047 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0048',addhotspot(autogarrowshotspot_scene_1608311474_0048_78);hotspot[autogarrowshotspot_scene_1608311474_0048_78].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0048_78].ath, 31.46);set(hotspot[autogarrowshotspot_scene_1608311474_0048_78].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0048_78].linkedscene, scene_1608311474_0047););
+
+<!-- scene_1608311474_0048 to scene_1608311474_0049 | 1608311474_0048 to 1608311474_0049 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0048',addhotspot(autogarrowshotspot_scene_1608311474_0048_79);hotspot[autogarrowshotspot_scene_1608311474_0048_79].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0048_79].ath, -147.01);set(hotspot[autogarrowshotspot_scene_1608311474_0048_79].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0048_79].linkedscene, scene_1608311474_0049););
+
+<!-- scene_1608311474_0049 to scene_1608311474_0048 | 1608311474_0049 to 1608311474_0048 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0049',addhotspot(autogarrowshotspot_scene_1608311474_0049_80);hotspot[autogarrowshotspot_scene_1608311474_0049_80].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0049_80].ath, 32.99);set(hotspot[autogarrowshotspot_scene_1608311474_0049_80].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0049_80].linkedscene, scene_1608311474_0048););
+
+<!-- scene_1608311474_0049 to scene_1608311474_0050 | 1608311474_0049 to 1608311474_0050 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0049',addhotspot(autogarrowshotspot_scene_1608311474_0049_81);hotspot[autogarrowshotspot_scene_1608311474_0049_81].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0049_81].ath, -147.43);set(hotspot[autogarrowshotspot_scene_1608311474_0049_81].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0049_81].linkedscene, scene_1608311474_0050););
+
+<!-- scene_1608311474_0050 to scene_1608311474_0049 | 1608311474_0050 to 1608311474_0049 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0050',addhotspot(autogarrowshotspot_scene_1608311474_0050_82);hotspot[autogarrowshotspot_scene_1608311474_0050_82].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0050_82].ath, 32.57);set(hotspot[autogarrowshotspot_scene_1608311474_0050_82].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0050_82].linkedscene, scene_1608311474_0049););
+
+<!-- scene_1608311474_0050 to scene_1608311474_0051 | 1608311474_0050 to 1608311474_0051 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0050',addhotspot(autogarrowshotspot_scene_1608311474_0050_83);hotspot[autogarrowshotspot_scene_1608311474_0050_83].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0050_83].ath, -147.21);set(hotspot[autogarrowshotspot_scene_1608311474_0050_83].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0050_83].linkedscene, scene_1608311474_0051););
+
+<!-- scene_1608311474_0051 to scene_1608311474_0050 | 1608311474_0051 to 1608311474_0050 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0051',addhotspot(autogarrowshotspot_scene_1608311474_0051_84);hotspot[autogarrowshotspot_scene_1608311474_0051_84].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0051_84].ath, 32.79);set(hotspot[autogarrowshotspot_scene_1608311474_0051_84].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0051_84].linkedscene, scene_1608311474_0050););
+
+<!-- scene_1608311474_0051 to scene_1608311474_0052 | 1608311474_0051 to 1608311474_0052 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0051',addhotspot(autogarrowshotspot_scene_1608311474_0051_85);hotspot[autogarrowshotspot_scene_1608311474_0051_85].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0051_85].ath, -147.44);set(hotspot[autogarrowshotspot_scene_1608311474_0051_85].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0051_85].linkedscene, scene_1608311474_0052););
+
+<!-- scene_1608311474_0052 to scene_1608311474_0051 | 1608311474_0052 to 1608311474_0051 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0052',addhotspot(autogarrowshotspot_scene_1608311474_0052_86);hotspot[autogarrowshotspot_scene_1608311474_0052_86].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0052_86].ath, 32.56);set(hotspot[autogarrowshotspot_scene_1608311474_0052_86].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0052_86].linkedscene, scene_1608311474_0051););
+
+<!-- scene_1608311474_0052 to scene_1608311474_0053 | 1608311474_0052 to 1608311474_0053 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0052',addhotspot(autogarrowshotspot_scene_1608311474_0052_87);hotspot[autogarrowshotspot_scene_1608311474_0052_87].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0052_87].ath, -146.15);set(hotspot[autogarrowshotspot_scene_1608311474_0052_87].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0052_87].linkedscene, scene_1608311474_0053););
+
+<!-- scene_1608311474_0053 to scene_1608311474_0052 | 1608311474_0053 to 1608311474_0052 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0053',addhotspot(autogarrowshotspot_scene_1608311474_0053_88);hotspot[autogarrowshotspot_scene_1608311474_0053_88].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0053_88].ath, 33.85);set(hotspot[autogarrowshotspot_scene_1608311474_0053_88].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0053_88].linkedscene, scene_1608311474_0052););
+
+<!-- scene_1608311474_0053 to scene_1608311474_0054 | 1608311474_0053 to 1608311474_0054 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0053',addhotspot(autogarrowshotspot_scene_1608311474_0053_89);hotspot[autogarrowshotspot_scene_1608311474_0053_89].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0053_89].ath, -144.76);set(hotspot[autogarrowshotspot_scene_1608311474_0053_89].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0053_89].linkedscene, scene_1608311474_0054););
+
+<!-- scene_1608311474_0054 to scene_1608311474_0053 | 1608311474_0054 to 1608311474_0053 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0054',addhotspot(autogarrowshotspot_scene_1608311474_0054_90);hotspot[autogarrowshotspot_scene_1608311474_0054_90].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0054_90].ath, 35.24);set(hotspot[autogarrowshotspot_scene_1608311474_0054_90].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0054_90].linkedscene, scene_1608311474_0053););
+
+<!-- scene_1608311474_0054 to scene_1608311474_0055 | 1608311474_0054 to 1608311474_0055 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0054',addhotspot(autogarrowshotspot_scene_1608311474_0054_91);hotspot[autogarrowshotspot_scene_1608311474_0054_91].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0054_91].ath, -139.77);set(hotspot[autogarrowshotspot_scene_1608311474_0054_91].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0054_91].linkedscene, scene_1608311474_0055););
+
+<!-- scene_1608311474_0055 to scene_1608311474_0054 | 1608311474_0055 to 1608311474_0054 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0055',addhotspot(autogarrowshotspot_scene_1608311474_0055_92);hotspot[autogarrowshotspot_scene_1608311474_0055_92].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0055_92].ath, 40.23);set(hotspot[autogarrowshotspot_scene_1608311474_0055_92].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0055_92].linkedscene, scene_1608311474_0054););
+
+<!-- scene_1608311474_0055 to scene_1608311474_0056 | 1608311474_0055 to 1608311474_0056 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0055',addhotspot(autogarrowshotspot_scene_1608311474_0055_93);hotspot[autogarrowshotspot_scene_1608311474_0055_93].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0055_93].ath, -129.94);set(hotspot[autogarrowshotspot_scene_1608311474_0055_93].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0055_93].linkedscene, scene_1608311474_0056););
+
+<!-- scene_1608311474_0056 to scene_1608311474_0055 | 1608311474_0056 to 1608311474_0055 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0056',addhotspot(autogarrowshotspot_scene_1608311474_0056_94);hotspot[autogarrowshotspot_scene_1608311474_0056_94].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0056_94].ath, 50.06);set(hotspot[autogarrowshotspot_scene_1608311474_0056_94].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0056_94].linkedscene, scene_1608311474_0055););
+
+<!-- scene_1608311474_0057 to scene_1608311474_0058 | 1608311474_0057 to 1608311474_0058 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0057',addhotspot(autogarrowshotspot_scene_1608311474_0057_95);hotspot[autogarrowshotspot_scene_1608311474_0057_95].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0057_95].ath, -147.42);set(hotspot[autogarrowshotspot_scene_1608311474_0057_95].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0057_95].linkedscene, scene_1608311474_0058););
+
+<!-- scene_1608311474_0058 to scene_1608311474_0057 | 1608311474_0058 to 1608311474_0057 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0058',addhotspot(autogarrowshotspot_scene_1608311474_0058_96);hotspot[autogarrowshotspot_scene_1608311474_0058_96].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0058_96].ath, 32.58);set(hotspot[autogarrowshotspot_scene_1608311474_0058_96].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0058_96].linkedscene, scene_1608311474_0057););
+
+<!-- scene_1608311474_0058 to scene_1608311474_0059 | 1608311474_0058 to 1608311474_0059 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0058',addhotspot(autogarrowshotspot_scene_1608311474_0058_97);hotspot[autogarrowshotspot_scene_1608311474_0058_97].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0058_97].ath, -150.87);set(hotspot[autogarrowshotspot_scene_1608311474_0058_97].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0058_97].linkedscene, scene_1608311474_0059););
+
+<!-- scene_1608311474_0059 to scene_1608311474_0058 | 1608311474_0059 to 1608311474_0058 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0059',addhotspot(autogarrowshotspot_scene_1608311474_0059_98);hotspot[autogarrowshotspot_scene_1608311474_0059_98].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0059_98].ath, 29.13);set(hotspot[autogarrowshotspot_scene_1608311474_0059_98].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0059_98].linkedscene, scene_1608311474_0058););
+
+<!-- scene_1608311474_0059 to scene_1608311474_0060 | 1608311474_0059 to 1608311474_0060 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0059',addhotspot(autogarrowshotspot_scene_1608311474_0059_99);hotspot[autogarrowshotspot_scene_1608311474_0059_99].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0059_99].ath, -146.89);set(hotspot[autogarrowshotspot_scene_1608311474_0059_99].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0059_99].linkedscene, scene_1608311474_0060););
+
+<!-- scene_1608311474_0060 to scene_1608311474_0059 | 1608311474_0060 to 1608311474_0059 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0060',addhotspot(autogarrowshotspot_scene_1608311474_0060_100);hotspot[autogarrowshotspot_scene_1608311474_0060_100].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0060_100].ath, 33.11);set(hotspot[autogarrowshotspot_scene_1608311474_0060_100].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0060_100].linkedscene, scene_1608311474_0059););
+
+<!-- scene_1608311474_0060 to scene_1608311474_0061 | 1608311474_0060 to 1608311474_0061 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0060',addhotspot(autogarrowshotspot_scene_1608311474_0060_101);hotspot[autogarrowshotspot_scene_1608311474_0060_101].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0060_101].ath, -145.46);set(hotspot[autogarrowshotspot_scene_1608311474_0060_101].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0060_101].linkedscene, scene_1608311474_0061););
+
+<!-- scene_1608311474_0061 to scene_1608311474_0060 | 1608311474_0061 to 1608311474_0060 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0061',addhotspot(autogarrowshotspot_scene_1608311474_0061_102);hotspot[autogarrowshotspot_scene_1608311474_0061_102].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0061_102].ath, 34.54);set(hotspot[autogarrowshotspot_scene_1608311474_0061_102].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0061_102].linkedscene, scene_1608311474_0060););
+
+<!-- scene_1608311474_0061 to scene_1608311474_0062 | 1608311474_0061 to 1608311474_0062 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0061',addhotspot(autogarrowshotspot_scene_1608311474_0061_103);hotspot[autogarrowshotspot_scene_1608311474_0061_103].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0061_103].ath, -145.84);set(hotspot[autogarrowshotspot_scene_1608311474_0061_103].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0061_103].linkedscene, scene_1608311474_0062););
+
+<!-- scene_1608311474_0062 to scene_1608311474_0061 | 1608311474_0062 to 1608311474_0061 -->
+if(scene[get(xml.scene)].name == 'scene_1608311474_0062',addhotspot(autogarrowshotspot_scene_1608311474_0062_104);hotspot[autogarrowshotspot_scene_1608311474_0062_104].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608311474_0062_104].ath, 34.16);set(hotspot[autogarrowshotspot_scene_1608311474_0062_104].atv, 7);set(hotspot[autogarrowshotspot_scene_1608311474_0062_104].linkedscene, scene_1608311474_0061););
+
+</action>
+
+</krpano>

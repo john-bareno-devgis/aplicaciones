@@ -1,0 +1,11 @@
+﻿<krpano version="1.20.7" title="Escena: " server="http://10.0.12.241:8090/">
+
+	<include url="skin/vtourskin.xml" />
+	<!-- here we can change the skin of the bar, keep in mind that vtourskin should always be included  DS-->
+	<include url="skin/vtourskin_design_117round.xml" />
+	<events ondoubleclick="js(getPoint());" />
+	<action name="startup" autorun="onstart">
+		<!-- loadpanoscene('xml/Pro2_8k3d.xml','scene_Pro2_8k3d');  -->
+		if(startactions !== null, startactions() );
+	</action>
+</krpano>

@@ -1,0 +1,19 @@
+<krpano>
+<autogarrows_settings
+
+	search_radius="9"
+	search_sector="0"
+	ath_shift="-4.6"
+	create_backups="false"
+	create_tour_xml="false"
+	create_tooltips="false"
+	use_scenes_heading="disabled"
+	prealign_filename="Prealign.xml"
+	tooltips_template="%panoname1% -&gt; %panoname2%, %panotitle1% -&gt; %panotitle2%, %azimuth%, %distance%"
+
+	hotspots_atv="6.6"
+	hotspots_relative_atv="0"
+	hotspots_style="skin_hotspotstyle"
+
+/>
+</krpano>

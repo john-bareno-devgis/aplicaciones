@@ -1,0 +1,19 @@
+<krpano>
+<events name="autogarrowsevents" keep="true" onxmlcomplete="autogarrows_init()" />
+<action name="autogarrows_init">
+
+<!-- scene_1608227464_0000 to scene_1608227464_0001 | 1608227464_0000 to 1608227464_0001 -->
+if(scene[get(xml.scene)].name == 'scene_1608227464_0000',addhotspot(autogarrowshotspot_scene_1608227464_0000_1);hotspot[autogarrowshotspot_scene_1608227464_0000_1].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608227464_0000_1].ath, -19.91);set(hotspot[autogarrowshotspot_scene_1608227464_0000_1].atv, 7);set(hotspot[autogarrowshotspot_scene_1608227464_0000_1].linkedscene, scene_1608227464_0001););
+
+<!-- scene_1608227464_0001 to scene_1608227464_0000 | 1608227464_0001 to 1608227464_0000 -->
+if(scene[get(xml.scene)].name == 'scene_1608227464_0001',addhotspot(autogarrowshotspot_scene_1608227464_0001_2);hotspot[autogarrowshotspot_scene_1608227464_0001_2].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608227464_0001_2].ath, 160.09);set(hotspot[autogarrowshotspot_scene_1608227464_0001_2].atv, 7);set(hotspot[autogarrowshotspot_scene_1608227464_0001_2].linkedscene, scene_1608227464_0000););
+
+<!-- scene_1608227464_0001 to scene_1608227464_0002 | 1608227464_0001 to 1608227464_0002 -->
+if(scene[get(xml.scene)].name == 'scene_1608227464_0001',addhotspot(autogarrowshotspot_scene_1608227464_0001_3);hotspot[autogarrowshotspot_scene_1608227464_0001_3].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608227464_0001_3].ath, -19.85);set(hotspot[autogarrowshotspot_scene_1608227464_0001_3].atv, 7);set(hotspot[autogarrowshotspot_scene_1608227464_0001_3].linkedscene, scene_1608227464_0002););
+
+<!-- scene_1608227464_0002 to scene_1608227464_0001 | 1608227464_0002 to 1608227464_0001 -->
+if(scene[get(xml.scene)].name == 'scene_1608227464_0002',addhotspot(autogarrowshotspot_scene_1608227464_0002_4);hotspot[autogarrowshotspot_scene_1608227464_0002_4].loadstyle(skin_hotspotstyle);set(hotspot[autogarrowshotspot_scene_1608227464_0002_4].ath, 160.15);set(hotspot[autogarrowshotspot_scene_1608227464_0002_4].atv, 7);set(hotspot[autogarrowshotspot_scene_1608227464_0002_4].linkedscene, scene_1608227464_0001););
+
+</action>
+
+</krpano>
